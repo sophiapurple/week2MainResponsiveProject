@@ -1,0 +1,121 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --apex-color: rgb(108, 99, 255);
+  --bs-font-sans-serif: "Inclusive Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "PT Mono", monospace;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Roboto Mono", monospace;
+}
+body {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  font-family: var(--bs-font-sans-serif);
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-size: 86px;
+}
+
+h2 {
+  font-size: 48px;
+  margin-left: 37px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+p {
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-left: 30px;
+}
+
+.fs-font {
+  font-size: 55px;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.btn-purple {
+  background-color: var(--apex-color);
+}
+.btn-purple:hover {
+  color: #6610f2;
+}
+
+.contact-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.about-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+
+.about-paragraphs {
+  display: flex;
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+.text-text {
+  color: rgb(255, 255, 255);
+}
+.text-text:hover {
+  background-color: rgb(108, 99, 255);
+}

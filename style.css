@@ -105,18 +105,15 @@ p {
 }
 
 .email-link {
-  position: relative;
-  left: 200px;
-
+  text-align: center;
+  display: block;
   color: var(--primary-color);
-  font-size: 28px;
+  font-size: 19px;
   text-decoration: none;
 }
 
 .email-link:hover {
   text-decoration: underline;
-  position: relative;
-  left: 30px;
 }
 .btn-yoga-link {
   background-color: rgb(108, 99, 255);

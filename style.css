@@ -2,7 +2,7 @@
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-  --apex-color: rgb(108, 99, 255);
+  --bg-color: rgb(108, 99, 255);
   --bs-font-sans-serif: "Inclusive Sans", sans-serif;
   font-family: "Open Sans", sans-serif;
   font-family: "Poppins", sans-serif;
@@ -68,17 +68,14 @@ p {
   text-decoration: none;
   text-transform: capitalize;
 }
-.btn-purple {
-  background-color: var(--apex-color);
-}
-.btn-purple:hover {
-  color: #6610f2;
-}
 
 .contact-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+}
+.contact-link:hover {
+  color: #6f42c1;
 }
 
 .about-link {
@@ -112,10 +109,9 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
-
-.text-text {
-  color: rgb(255, 255, 255);
-}
-.text-text:hover {
+.btn-yoga-link {
   background-color: rgb(108, 99, 255);
+}
+.btn-yoga-link:hover {
+  background-color: blueviolet;
 }
